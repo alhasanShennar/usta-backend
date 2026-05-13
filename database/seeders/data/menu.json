@@ -1,0 +1,611 @@
+{
+    "menuCategories": [
+        {
+            "id": "stone-oven",
+            "label": {
+                "en": "From the Stone Oven",
+                "ar": "من فرن الحجر"
+            }
+        },
+        {
+            "id": "cold-appetizers",
+            "label": {
+                "en": "Cold Appetizers",
+                "ar": "المقبلات الباردة"
+            }
+        },
+        {
+            "id": "hot-appetizers",
+            "label": {
+                "en": "Hot Appetizers",
+                "ar": "المقبلات الساخنة"
+            }
+        },
+        {
+            "id": "signature-sandwiches",
+            "label": {
+                "en": "Signature Sandwiches",
+                "ar": "السندويشات المميزة"
+            }
+        },
+        {
+            "id": "charcoal-grills",
+            "label": {
+                "en": "Charcoal Grills",
+                "ar": "مشاوي الفحم"
+            }
+        },
+        {
+            "id": "usta-special-dishes",
+            "label": {
+                "en": "Usta Special Dishes",
+                "ar": "أطباق أوستا الخاصة"
+            }
+        },
+        {
+            "id": "traditional-oven-dishes",
+            "label": {
+                "en": "Traditional Oven Dishes",
+                "ar": "أطباق الفرن التقليدية"
+            }
+        },
+        {
+            "id": "side-dishes",
+            "label": {
+                "en": "Side Dishes",
+                "ar": "الأطباق الجانبية"
+            }
+        },
+        {
+            "id": "turkish-desserts",
+            "label": {
+                "en": "Turkish Desserts",
+                "ar": "حلويات تركية"
+            }
+        },
+        {
+            "id": "beverages",
+            "label": {
+                "en": "Beverages",
+                "ar": "المشروبات"
+            }
+        }
+    ],
+    "menuItems": [
+        {
+            "id": 1,
+            "name": {
+                "en": "Meat Pide",
+                "ar": "بيدة باللحم"
+            },
+            "category": "stone-oven",
+            "price": "20 AED",
+            "description": {
+                "en": "Traditional Turkish flatbread baked in the oven, topped with seasoned minced meat and Turkish spices",
+                "ar": "خبز تركي تقليدي مسطح يُخبز في الفرن، مغطى باللحم المفروم المتبل والتوابل التركية"
+            },
+            "image": "Meat Pide.webp"
+        },
+        {
+            "id": 2,
+            "name": {
+                "en": "Cheese Pide",
+                "ar": "بيدة بالجبن"
+            },
+            "category": "stone-oven",
+            "price": "18 AED",
+            "description": {
+                "en": "Traditional Turkish flatbread baked in the oven and topped with melted Turkish cheese",
+                "ar": "خبز تركي مسطح تقليدي يُخبز في الفرن ويُغطى بالجبن التركي المذاب"
+            },
+            "image": "Cheese Pide.webp"
+        },
+        {
+            "id": 3,
+            "name": {
+                "en": "Cheese & Salami Pide",
+                "ar": "بيدة بالجبن والسلامي"
+            },
+            "category": "stone-oven",
+            "price": "20 AED",
+            "description": {
+                "en": "Traditional Turkish flatbread baked in the oven with melted cheese and salami",
+                "ar": "خبز تركي تقليدي مسطح يُخبز في الفرن مع الجبن الذائب والسلامي"
+            },
+            "image": "Cheese & Salami Pide.webp"
+        },
+        {
+            "id": 4,
+            "name": {
+                "en": "Cheese & Muhammara Pide",
+                "ar": "بيدة بالجبن والمحمرّة"
+            },
+            "category": "stone-oven",
+            "price": "18 AED",
+            "description": {
+                "en": "Traditional Turkish flatbread baked in the oven with melted cheese and muhammara.",
+                "ar": "خبز تركي تقليدي مسطح يُخبز في الفرن مع الجبن المذاب والمحمرة."
+            },
+            "image": "Cheese-Muhammara-Pide.webp"
+        },
+        {
+            "id": 5,
+            "name": {
+                "en": "Mixed Pide (Lahmacun, Cheese, Muhammara)",
+                "ar": "بيدة مشكلة (لحم بعجين، جبن، محمرة)"
+            },
+            "category": "stone-oven",
+            "price": "20 AED",
+            "description": {
+                "en": "Traditional Turkish flatbread baked in the oven with lahmacun minced meat, melted cheese, and muhammara",
+                "ar": "خبز تركي تقليدي مسطح يُخبز في الفرن مع لحم بعجين مفروم وجبن ذائب ومحمرة"
+            },
+            "image": "Mixed Pide (Lahmacun, Cheese, Muhammara).webp"
+        },
+        {
+            "id": 6,
+            "name": {
+                "en": "Lahmacun",
+                "ar": "لحم بعجين"
+            },
+            "category": "stone-oven",
+            "price": "16 AED",
+            "description": {
+                "en": "Thin Turkish flatbread topped with minced meat and spices.",
+                "ar": "خبز تركي رقيق مغطى باللحم المفروم والتوابل."
+            },
+            "image": "Lahmacun.webp"
+        },
+        {
+            "id": 7,
+            "name": {
+                "en": "Turkish Ezme Salad",
+                "ar": "سلطة إزمه التركية"
+            },
+            "category": "cold-appetizers",
+            "price": "15 AED",
+            "description": {
+                "en": "A traditional finely chopped salad made with fresh tomatoes, herbs, onions, and green peppers, mixed with pomegranate molasses, olive oil, and spices.",
+                "ar": "سلطة تقليدية مفرومة ناعمًا من الطماطم الطازجة والأعشاب والبصل والفلفل الأخضر مع دبس الرمان وزيت الزيتون والتوابل."
+            },
+            "image": "Turkish Ezme Salad.webp"
+        },
+        {
+            "id": 8,
+            "name": {
+                "en": "Eggplant Mutabal",
+                "ar": "متبل الباذنجان"
+            },
+            "category": "cold-appetizers",
+            "price": "15 AED",
+            "description": {
+                "en": "Charcoal-grilled eggplant with tahini and yogurt, garnished with pomegranate seeds.",
+                "ar": "باذنجان مشوي على الفحم مع الطحينة واللبن ومزين بحبوب الرمان."
+            },
+            "image": "Eggplant Mutabal.webp"
+        },
+        {
+            "id": 9,
+            "name": {
+                "en": "Hummus",
+                "ar": "حمص"
+            },
+            "category": "cold-appetizers",
+            "price": "15 AED",
+            "description": {
+                "en": "Smooth mashed chickpeas blended with tahini and lemon juice.",
+                "ar": "حمص مهروس ناعم ممزوج بالطحينة وعصير الليمون."
+            },
+            "image": "Hummus.webp"
+        },
+        {
+            "id": 10,
+            "name": {
+                "en": "Chicken Wings (6 pcs)",
+                "ar": "أجنحة دجاج (6 قطع)"
+            },
+            "category": "hot-appetizers",
+            "price": "18 AED",
+            "description": {
+                "en": "Fresh marinated grilled chicken wings served with onions, parsley, and garlic sauce.",
+                "ar": "أجنحة دجاج طازجة متبلة ومشوية، تقدم مع البصل والبقدونس وصلصة الثوم."
+            },
+            "image": "Chicken Wings (6 pcs).webp"
+        },
+        {
+            "id": 11,
+            "name": {
+                "en": "Mini Lahmacun (3 pcs)",
+                "ar": "ميني لحم بعجين (3 قطع)"
+            },
+            "category": "hot-appetizers",
+            "price": "20 AED",
+            "description": {
+                "en": "Small Turkish flatbreads topped with seasoned minced meat and baked in the oven.",
+                "ar": "خبز تركي صغير مسطح مغطى باللحم المفروم المتبل ومخبوز في الفرن."
+            },
+            "image": "Mini Lahmacun (3 pcs).webp"
+        },
+        {
+            "id": 12,
+            "name": {
+                "en": "French Fries",
+                "ar": "بطاطس مقلية"
+            },
+            "category": "hot-appetizers",
+            "price": "14 AED",
+            "image": "French Fries.webp"
+        },
+        {
+            "id": 13,
+            "name": {
+                "en": "Usta Kebab Sandwich",
+                "ar": "سندويش كباب أوستا"
+            },
+            "category": "signature-sandwiches",
+            "price": "22 AED",
+            "description": {
+                "en": "Fresh Turkish bread stuffed with freshly minced kebab, onions, parsley, sumac, and Turkish salad.",
+                "ar": "خبز تركي طازج محشو بكباب مفروم طازج مع البصل والبقدونس والسماق والسلطة التركية."
+            },
+            "image": "Usta-Kebab-Sandwich.webp"
+        },
+        {
+            "id": 14,
+            "name": {
+                "en": "Usta Kebab Sandwich (Double)",
+                "ar": "سندويش كباب أوستا (دبل)"
+            },
+            "category": "signature-sandwiches",
+            "price": "32 AED",
+            "description": {
+                "en": "Fresh Turkish bread stuffed with Two freshly minced kebab Seik, onions, parsley, sumac, and Turkish salad.",
+                "ar": "خبز تركي طازج محشو بكباب مفروم طازج مع البصل والبقدونس والسماق والسلطة التركية."
+            },
+            "image": "Usta-Kebab-Sandwich.webp"
+        },
+        {
+            "id": 15,
+            "name": {
+                "en": "Shish Tawook Sandwich",
+                "ar": "سندويش شيش طاووق"
+            },
+            "category": "signature-sandwiches",
+            "price": "22 AED",
+            "description": {
+                "en": "Fresh Turkish bread with marinated grilled chicken, garlic sauce, fries, and pickles.",
+                "ar": "خبز تركي طازج مع دجاج متبل ومشوي، وصلصة ثوم، وبطاطس مقلية، ومخلل."
+            },
+            "image": "Shish-Tawook-Sandwich.webp"
+        },
+        {
+            "id": 16,
+            "name": {
+                "en": "Chicken Kebab Sandwich",
+                "ar": "سندويش كباب الدجاج"
+            },
+            "category": "signature-sandwiches",
+            "price": "22 AED",
+            "description": {
+                "en": "Fresh Turkish bread stuffed with freshly minced chicken kebab, onions, parsley, sumac, and Turkish salad.",
+                "ar": "خبز تركي طازج محشو بكباب دجاج مفروم طازج مع البصل والبقدونس والسماق والسلطة التركية."
+            },
+            "image": "chickenKebabSandwichImg.webp"
+        },
+        {
+            "id": 17,
+            "name": {
+                "en": "Charcoal Doner Sandwich (Meat)",
+                "ar": "سندويش دونر على الفحم (لحم)"
+            },
+            "category": "signature-sandwiches",
+            "price": "14 AED",
+            "description": {
+                "en": "Charcoal-grilled meat kebab served in Turkish bread with sumac onions, parsley, pickles, and tahini sauce.",
+                "ar": "كباب لحم مشوي على الفحم يقدم في خبز تركي مع بصل السماق والبقدونس والمخللات وصلصة الطحينة."
+            },
+            "image": "Charcoal Doner Sandwich (Meat).webp"
+        },
+        {
+            "id": 18,
+            "name": {
+                "en": "Charcoal Doner Sandwich (Chicken)",
+                "ar": "سندويش دونر على الفحم (دجاج)"
+            },
+            "category": "signature-sandwiches",
+            "price": "14 AED",
+            "description": {
+                "en": "Charcoal-grilled chicken shish tawook with garlic sauce and pickles in Turkish bread",
+                "ar": "شيش طاووق دجاج مشوي على الفحم مع صلصة الثوم والمخللات في خبز تركي"
+            },
+            "image": "Charcoal Doner Sandwich (Chicken).webp"
+        },
+        {
+            "id": 19,
+            "name": {
+                "en": "Charcoal Doner Meal (Meat or Chicken)",
+                "ar": "وجبة دونر على الفحم (لحم أو دجاج)"
+            },
+            "category": "signature-sandwiches",
+            "price": "24 AED",
+            "description": {
+                "en": "Charcoal doner sandwich combo served with French fries and Ayran.",
+                "ar": "وجبة ساندوتش دونر بالفحم تقدم مع بطاطا مقلية وعيران."
+            },
+            "image": "Charcoal Doner Meal (Meat or Chicken).webp"
+        },
+        {
+            "id": 20,
+            "name": {
+                "en": "Usta Chicken (Half - 7 pcs)",
+                "ar": "دجاج أوستا (نصف - 7 قطع)"
+            },
+            "category": "charcoal-grills",
+            "price": "39 AED",
+            "description": {
+                "en": "Fresh chicken marinated with authentic Turkish spices, grilled over charcoal, served with rice or fries, Turkish salad, eggplant mutabal or hummus, and fresh Turkish bread.",
+                "ar": "دجاج طازج متبل بتوابل تركية أصلية ومشوي على الفحم، يقدم مع الأرز أو البطاطس المقلية والسلطة التركية ومتبل الباذنجان أو الحمص والخبز التركي الطازج."
+            },
+            "image": "Usta Chicken.webp"
+        },
+        {
+            "id": 21,
+            "name": {
+                "en": "Usta Chicken (Full - 14 pcs)",
+                "ar": "دجاج أوستا (كامل - 14 قطعة)"
+            },
+            "category": "charcoal-grills",
+            "price": "70 AED",
+            "description": {
+                "en": "Fresh chicken marinated with authentic Turkish spices, grilled over charcoal, served with rice or fries, Turkish salad, eggplant mutabal or hummus, and fresh Turkish bread.",
+                "ar": "دجاج طازج متبل بتوابل تركية أصلية ومشوي على الفحم، يقدم مع الأرز أو البطاطس المقلية والسلطة التركية ومتبل الباذنجان أو الحمص والخبز التركي الطازج."
+            }
+        },
+        {
+            "id": 22,
+            "name": {
+                "en": "Adana Kebab (Meat)",
+                "ar": "كباب أضنة (لحم)"
+            },
+            "category": "charcoal-grills",
+            "price": "48 AED",
+            "description": {
+                "en": "Fresh minced meat with vegetables and Turkish spices, grilled over charcoal, served with rice or fries, Turkish salad, eggplant mutabal or hummus, pickles, and Turkish bread.",
+                "ar": "لحم مفروم طازج مع الخضار والتوابل التركية، مشوي على الفحم ويقدم مع الأرز أو البطاطس المقلية والسلطة التركية ومتبل الباذنجان أو الحمص والمخلل والخبز التركي."
+            },
+            "image": "Adana Kebab (Meat).webp"
+        },
+        {
+            "id": 23,
+            "name": {
+                "en": "Turkish Chicken Kebab",
+                "ar": "كباب الدجاج التركي"
+            },
+            "category": "charcoal-grills",
+            "price": "44 AED",
+            "description": {
+                "en": "Marinated chicken with vegetables, grilled over charcoal, served with rice or fries, Turkish salad, eggplant mutabal or hummus, garlic sauce, pickles, and Turkish bread.",
+                "ar": "دجاج متبل مع الخضار، مشوي على الفحم ويقدم مع الأرز أو البطاطس المقلية والسلطة التركية ومتبل الباذنجان أو الحمص وصلصة الثوم والمخلل والخبز التركي."
+            },
+            "image": "Turkish Chicken Kebab.webp"
+        },
+        {
+            "id": 24,
+            "name": {
+                "en": "Shish Tawook",
+                "ar": "شيش طاووق"
+            },
+            "category": "charcoal-grills",
+            "price": "48 AED",
+            "description": {
+                "en": "Marinated chicken cubes grilled over charcoal, served with rice or fries, Turkish salad, eggplant mutabal or hummus, garlic sauce, pickles, and Turkish bread.",
+                "ar": "مكعبات دجاج متبلة ومشوية على الفحم، تقدم مع الأرز أو البطاطس المقلية والسلطة التركية ومتبل الباذنجان أو الحمص وصلصة الثوم والمخلل والخبز التركي."
+            },
+            "image": "Shish-Tawook-Platter.webp"
+        },
+        {
+            "id": 25,
+            "name": {
+                "en": "Usta Mixed Grill",
+                "ar": "مشاوي أوستا المشكلة"
+            },
+            "category": "charcoal-grills",
+            "price": "56 AED",
+            "description": {
+                "en": "Selection of Meat kebab, chicken kebab, and shish tawook, served with rice or fries, Turkish salad, eggplant mutabal or hummus, pickles, garlic sauce, and Turkish bread.",
+                "ar": "تشكيلة من كباب اللحم وكباب الدجاج وشيش الطاووق، تقدم مع الأرز أو البطاطس المقلية والسلطة التركية ومتبل الباذنجان أو الحمص والمخلل وصلصة الثوم والخبز التركي."
+            },
+            "image": "Usta Mixed Grill.webp"
+        },
+        {
+            "id": 26,
+            "name": {
+                "en": "Dawood Basha (Clay Pot)",
+                "ar": "داود باشا (فخار)"
+            },
+            "category": "usta-special-dishes",
+            "price": "44 AED",
+            "description": {
+                "en": "Fresh meatballs cooked Turkish-style in rich tomato sauce with vegetables, served with vermicelli rice, Turkish salad, eggplant mutabal or hummus, and pickles.",
+                "ar": "كرات لحم طازجة مطهية على الطريقة التركية في صلصة طماطم غنية مع الخضار، تقدم مع أرز الشعيرية والسلطة التركية ومتبل الباذنجان أو الحمص والمخلل."
+            },
+            "image": "Dawood Basha (Clay Pot).webp"
+        },
+        {
+            "id": 27,
+            "name": {
+                "en": "Creamy Shish Tawook (Clay Pot)",
+                "ar": "شيش طاووق بالكريمة (فخار)"
+            },
+            "category": "usta-special-dishes",
+            "price": "44 AED",
+            "description": {
+                "en": "Marinated chicken cubes cooked with tomato sauce, cream, and mozzarella cheese, served with vermicelli rice, Turkish salad, eggplant mutabal or hummus, and pickles.",
+                "ar": "مكعبات دجاج متبلة مطهية مع صلصة الطماطم والكريمة وجبن الموزاريلا، تقدم مع أرز الشعيرية والسلطة التركية ومتبل الباذنجان أو الحمص والمخلل."
+            },
+            "image": "Creamy Shish Tawook (Clay Pot).webp"
+        },
+        {
+            "id": 28,
+            "name": {
+                "en": "Usta Special Plate",
+                "ar": "طبق أوستا الخاص"
+            },
+            "category": "usta-special-dishes",
+            "price": "48 AED",
+            "description": {
+                "en": "Turkish-style meatballs in rich tomato sauce served over herbed mashed potatoes, topped with mozzarella, pine nuts, and chopped parsley, with Turkish salad, eggplant mutabal or hummus, pickles, and fresh bread.",
+                "ar": "كرات لحم على الطريقة التركية بصلصة طماطم غنية فوق بطاطس مهروسة بالأعشاب، مع موزاريلا وصنوبر وبقدونس مفروم، وتقدم مع السلطة التركية ومتبل الباذنجان أو الحمص والمخلل والخبز الطازج."
+            },
+            "image": "Usta Special Plate.webp"
+        },
+        {
+            "id": 29,
+            "name": {
+                "en": "Kofta in Tomato Sauce",
+                "ar": "كفتة بصلصة الطماطم"
+            },
+            "category": "traditional-oven-dishes",
+            "price": "48 AED",
+            "description": {
+                "en": "Turkish-style seasoned minced meat baked in the oven with rich tomato sauce, served with Turkish salad, eggplant mutabal or hummus, pickles, and fresh bread.",
+                "ar": "لحم مفروم متبل على الطريقة التركية ومخبوز في الفرن مع صلصة طماطم غنية، يقدم مع السلطة التركية ومتبل الباذنجان أو الحمص والمخلل والخبز الطازج."
+            },
+            "image": "Kofta with Tomato Sauce.webp"
+        },
+        {
+            "id": 30,
+            "name": {
+                "en": "Kofta with Tahini",
+                "ar": "كفتة بالطحينة"
+            },
+            "category": "traditional-oven-dishes",
+            "price": "48 AED",
+            "description": {
+                "en": "Turkish-style seasoned minced meat baked in the oven with tahini sauce, served with Turkish salad, eggplant mutabal or hummus, pickles, and fresh bread.",
+                "ar": "لحم مفروم متبل على الطريقة التركية ومخبوز في الفرن مع صلصة الطحينة، يقدم مع السلطة التركية ومتبل الباذنجان أو الحمص والمخلل والخبز الطازج."
+            },
+            "image": "Kofta with Tahini.webp"
+        },
+        {
+            "id": 31,
+            "name": {
+                "en": "Turkish Red Rice",
+                "ar": "أرز تركي أحمر"
+            },
+            "category": "side-dishes",
+            "price": "12 AED",
+            "image": "Turkish Red Rice.webp"
+        },
+        {
+            "id": 32,
+            "name": {
+                "en": "Vermicelli Rice",
+                "ar": "أرز بالشعيرية"
+            },
+            "category": "side-dishes",
+            "price": "12 AED",
+            "image": "Vermicelli Rice.webp"
+        },
+        {
+            "id": 33,
+            "name": {
+                "en": "Mashed Potatoes",
+                "ar": "بطاطس مهروسة"
+            },
+            "category": "side-dishes",
+            "price": "12 AED",
+            "image": "Mashed Potatoes.webp"
+        },
+        {
+            "id": 34,
+            "name": {
+                "en": "Garlic Sauce",
+                "ar": "صلصة الثوم"
+            },
+            "category": "side-dishes",
+            "price": "4 AED",
+            "image": "Garlic Sauce.webp"
+        },
+        {
+            "id": 35,
+            "name": {
+                "en": "Mixed Pickles",
+                "ar": "مخلل مشكل"
+            },
+            "category": "side-dishes",
+            "price": "4 AED",
+            "image": "Mixed Pickles.webp"
+        },
+        {
+            "id": 36,
+            "name": {
+                "en": "Kunafa",
+                "ar": "كنافة"
+            },
+            "category": "turkish-desserts",
+            "price": "18 AED",
+            "image": "Kunafa.webp"
+        },
+        {
+            "id": 37,
+            "name": {
+                "en": "Ayran (Yogurt Drink)",
+                "ar": "عيران (مشروب اللبن)"
+            },
+            "category": "beverages",
+            "price": "6 AED",
+            "image": "Ayran (Yogurt Drink).webp"
+        },
+        {
+            "id": 38,
+            "name": {
+                "en": "Fresh Orange Juice",
+                "ar": "عصير برتقال طازج"
+            },
+            "category": "beverages",
+            "price": "14 AED",
+            "image": "Fresh Orange Juice.webp"
+        },
+        {
+            "id": 39,
+            "name": {
+                "en": "Soft Drinks (Pepsi, 7Up, Mirinda)",
+                "ar": "مشروبات غازية (بيبسي، سفن أب، ميرندا)"
+            },
+            "category": "beverages",
+            "price": "5 AED",
+            "image": "Soft Drinks (Pepsi, 7Up, Mirinda).webp"
+        },
+        {
+            "id": 40,
+            "name": {
+                "en": "Turkish Coffee",
+                "ar": "قهوة تركية"
+            },
+            "category": "beverages",
+            "price": "10 AED",
+            "image": "Turkish Coffee.webp"
+        },
+        {
+            "id": 41,
+            "name": {
+                "en": "Tea",
+                "ar": "شاي"
+            },
+            "category": "beverages",
+            "price": "3 AED",
+            "image": "Tea.webp"
+        },
+        {
+            "id": 42,
+            "name": {
+                "en": "Water",
+                "ar": "ماء"
+            },
+            "category": "beverages",
+            "price": "4 AED",
+            "image": "Water.webp"
+        }
+    ]
+}
