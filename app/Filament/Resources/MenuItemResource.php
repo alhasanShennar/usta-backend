@@ -9,7 +9,9 @@ use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Grouping\Group;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
 
 class MenuItemResource extends Resource
 {
@@ -73,9 +75,35 @@ class MenuItemResource extends Resource
 
     public static function table(Table $table): Table
     {
+        $categoryGroup = Group::make('category.name_en')
+            ->label('Category')
+            ->titlePrefixedWithLabel(false)
+            ->collapsible()
+            ->orderQueryUsing(
+                fn(Builder $query, string $direction): Builder => $query
+                    ->orderBy(
+                        Category::query()
+                            ->select('sort_order')
+                            ->whereColumn('categories.id', 'menu_items.category_id'),
+                        $direction,
+                    )
+                    ->orderBy(
+                        Category::query()
+                            ->select('name_en')
+                            ->whereColumn('categories.id', 'menu_items.category_id'),
+                        $direction,
+                    )
+            );
+
         return $table
             ->defaultSort('sort_order')
             ->reorderable('sort_order')
+            ->groups([
+                $categoryGroup,
+            ])
+            ->defaultGroup($categoryGroup)
+            ->groupingSettingsHidden()
+            ->groupingDirectionSettingHidden()
             ->columns([
                 Tables\Columns\ImageColumn::make('image_path')
                     ->disk('public')
