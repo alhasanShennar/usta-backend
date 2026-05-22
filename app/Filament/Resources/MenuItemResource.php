@@ -74,6 +74,8 @@ class MenuItemResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
+            ->defaultSort('sort_order')
+            ->reorderable('sort_order')
             ->columns([
                 Tables\Columns\ImageColumn::make('image_path')
                     ->disk('public')
